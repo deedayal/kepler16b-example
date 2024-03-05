@@ -1,0 +1,408 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.com/tutorial2/description/bundle#"
+     xml:base="http://example.com/tutorial2/description/bundle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:oml="http://opencaesar.io/oml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:bundle="http://example.com/tutorial2/description/bundle#"
+     xmlns:iso-1087-1="http://iso.org/iso-1087-1#">
+    <owl:Ontology rdf:about="http://example.com/tutorial2/description/bundle">
+        <owl:imports rdf:resource="http://example.com/tutorial2/description/components"/>
+        <owl:imports rdf:resource="http://example.com/tutorial2/description/interfaces"/>
+        <owl:imports rdf:resource="http://example.com/tutorial2/description/junctions"/>
+        <owl:imports rdf:resource="http://example.com/tutorial2/description/masses"/>
+        <owl:imports rdf:resource="http://example.com/tutorial2/description/missions"/>
+        <owl:imports rdf:resource="http://example.com/tutorial2/description/objectives"/>
+        <owl:imports rdf:resource="http://example.com/tutorial2/description/requirements"/>
+        <owl:imports rdf:resource="http://example.com/tutorial2/vocabulary/bundle"/>
+        <oml:type rdf:resource="http://opencaesar.io/oml#DescriptionBundle"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/tutorial2/description/masses#lander-launch-system.mass.magnitude -->
+
+
+    <rdf:Description rdf:about="http://example.com/tutorial2/description/masses#lander-launch-system.mass.magnitude">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#characterizes"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#instantiates"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#unit"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/tutorial2/description/masses#lander-spacecraft.mass.magnitude -->
+
+
+    <rdf:Description rdf:about="http://example.com/tutorial2/description/masses#lander-spacecraft.mass.magnitude">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#characterizes"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#instantiates"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#unit"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/tutorial2/description/masses#orbiter-command-and-data-handling-subsystem.mass.magnitude -->
+
+
+    <rdf:Description rdf:about="http://example.com/tutorial2/description/masses#orbiter-command-and-data-handling-subsystem.mass.magnitude">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#characterizes"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#instantiates"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#unit"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/tutorial2/description/masses#orbiter-guidance-navigation-control-subsystem.mass.magnitude -->
+
+
+    <rdf:Description rdf:about="http://example.com/tutorial2/description/masses#orbiter-guidance-navigation-control-subsystem.mass.magnitude">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#characterizes"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#instantiates"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#unit"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/tutorial2/description/masses#orbiter-harness.mass.magnitude -->
+
+
+    <rdf:Description rdf:about="http://example.com/tutorial2/description/masses#orbiter-harness.mass.magnitude">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#characterizes"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#instantiates"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#unit"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/tutorial2/description/masses#orbiter-launch-system.mass.magnitude -->
+
+
+    <rdf:Description rdf:about="http://example.com/tutorial2/description/masses#orbiter-launch-system.mass.magnitude">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#characterizes"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#instantiates"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#unit"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/tutorial2/description/masses#orbiter-mechanical-subsystem.mass.magnitude -->
+
+
+    <rdf:Description rdf:about="http://example.com/tutorial2/description/masses#orbiter-mechanical-subsystem.mass.magnitude">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#characterizes"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#instantiates"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#unit"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/tutorial2/description/masses#orbiter-power-subsystem.mass.magnitude -->
+
+
+    <rdf:Description rdf:about="http://example.com/tutorial2/description/masses#orbiter-power-subsystem.mass.magnitude">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#characterizes"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#instantiates"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#unit"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/tutorial2/description/masses#orbiter-propulsion-subsystem.mass.magnitude -->
+
+
+    <rdf:Description rdf:about="http://example.com/tutorial2/description/masses#orbiter-propulsion-subsystem.mass.magnitude">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#characterizes"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#instantiates"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#unit"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/tutorial2/description/masses#orbiter-spacraft-flight-software.mass.magnitude -->
+
+
+    <rdf:Description rdf:about="http://example.com/tutorial2/description/masses#orbiter-spacraft-flight-software.mass.magnitude">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#characterizes"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#instantiates"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#unit"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/tutorial2/description/masses#orbiter-telecom-subsystem.mass.magnitude -->
+
+
+    <rdf:Description rdf:about="http://example.com/tutorial2/description/masses#orbiter-telecom-subsystem.mass.magnitude">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#characterizes"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#instantiates"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#unit"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+    </rdf:Description>
+    
+
+
+    <!-- http://example.com/tutorial2/description/masses#orbiter-thermal-subsystem.mass.magnitude -->
+
+
+    <rdf:Description rdf:about="http://example.com/tutorial2/description/masses#orbiter-thermal-subsystem.mass.magnitude">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#characterizes"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#instantiates"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#unit"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+    </rdf:Description>
+    
+
+
+    <!-- http://iso.org/iso-80000-1#SI7 -->
+
+
+    <rdf:Description rdf:about="http://iso.org/iso-80000-1#SI7">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#given"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+    </rdf:Description>
+    
+
+
+    <!-- http://iso.org/iso-80000-1#SI8 -->
+
+
+    <rdf:Description rdf:about="http://iso.org/iso-80000-1#SI8">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#given"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+    </rdf:Description>
+    
+
+
+    <!-- http://iso.org/iso-80000-4.1#kilogram -->
+
+
+    <rdf:Description rdf:about="http://iso.org/iso-80000-4.1#kilogram">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#characterizes"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#hasMultiple"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://bipm.org/jcgm/vim4#isMultipleOf"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:maxCardinality>
+            </owl:Restriction>
+        </rdf:type>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.17.2020-11-07T15:03:35Z) https://github.com/owlcs/owlapi/ -->
+
+
