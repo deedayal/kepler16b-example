@@ -78,5 +78,4 @@ description <http://example.com/tutorial2/description/components#> as components
 		base:contains orbiter-spacraft-flight-software
 		base:contains orbiter-propulsion-subsystem
 	]
-	
 }
